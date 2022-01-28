@@ -1,0 +1,8 @@
+{
+    "cmake.configureOnOpen": false,
+    "cmake.configureArgs": [
+        "-DCMAKE_TOOLCHAIN_FILE:STRING=${workspaceFolder}/build/conan_paths.cmake",
+        "-DCMAKE_EXPORT_COMPILE_COMMANDS=ON"
+    ],
+    "cmake.buildDirectory": "${workspaceFolder}/build"
+}
